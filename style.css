@@ -1161,7 +1161,7 @@ div:before, div:after {
   transform-origin: bottom center;
 }
 .head:before {
-  background: #30508F;
+  background: #FFFFFF;
   border-top-left-radius: 50% 40%;
   border-top-right-radius: 50% 40%;
   border-bottom-right-radius: 10% 60%;
@@ -1209,7 +1209,7 @@ div:before, div:after {
   height: 15%;
   width: 15%;
   border-radius: 100%;
-  background: #343C60;
+  background: #000000;
   top: 45%;
   left: 45%;
   transform-origin: center center;
@@ -1233,7 +1233,7 @@ div:before, div:after {
   left: 42%;
 }
 .nose:after {
-  background: #30508F;
+  background: #000000;
   height: 100%;
   width: 100%;
   border-top-left-radius: 20% 20%;
@@ -1263,13 +1263,13 @@ div:before, div:after {
   border-top-left-radius: 10%;
   transform-origin: 80% center;
   overflow: hidden;
-  background: #30508F;
+  background: #FFFFFF;
 }
 .ear:before {
   width: 70%;
   height: 55%;
-  border: 2px solid #30508F;
-  background: #DE6465;
+  border: 2px solid #FFFFFF;
+  background: #DF9292;
   top: 20%;
   left: 15%;
   transform-origin: top left;
@@ -1279,7 +1279,7 @@ div:before, div:after {
   width: 70%;
   height: 100%;
   border-top-left-radius: 100%;
-  background: #30508F;
+  background: #FFFFFF;
   left: 32%;
   transform-origin: top left;
   transform: rotate(-5deg);
@@ -1287,17 +1287,17 @@ div:before, div:after {
 .ear + .ear {
   -webkit-animation: right-ear 12s both infinite;
           animation: right-ear 12s both infinite;
-  background-color: #343C60;
+  background-color: #FFFFFF;
   left: 15%;
   top: 5%;
   z-index: -1;
   transform-origin: right center;
 }
 .ear + .ear:before {
-  border-color: #343C60;
+  border-color: #FFFFFF;
 }
 .ear + .ear:after {
-  background: #343C60;
+  background: #FFFFFF;
 }
 
 .mouth {
@@ -1338,7 +1338,7 @@ div:before, div:after {
 .lips:before, .lips:after {
   background: white;
   width: calc(50% + 1.5px);
-  border-color: #9EB6D7;
+  border-color: black;
   border-width: 3px;
   border-style: solid;
   height: 100%;
@@ -1384,7 +1384,7 @@ div:before, div:after {
   bottom: 0;
 }
 .torso:before {
-  background: #30508F;
+  background: #FFFFFF;
   height: 100%;
   width: 50%;
   transform: translateX(-20%) skewX(-30deg);
@@ -1392,7 +1392,7 @@ div:before, div:after {
   border-radius: 0 30% 0 60%;
 }
 .torso:after {
-  background: #30508F;
+  background: #FFFFFF;
   height: 100%;
   width: 60%;
   top: 0;
@@ -1411,7 +1411,7 @@ div:before, div:after {
   left: 37%;
 }
 .mane:before {
-  background: white;
+  background: #FAFAFA;
   height: 40%;
   width: 100%;
   border-top-left-radius: 10% 50%;
@@ -1419,7 +1419,7 @@ div:before, div:after {
   border-bottom-left-radius: 10% 50%;
 }
 .mane:after {
-  background: white;
+  background: #FAFAFA;
   top: 25%;
   height: 76%;
   width: 30%;
@@ -1441,7 +1441,7 @@ div:before, div:after {
 }
 
 .legs {
-  background-color: #30508F;
+  background-color: #FFFFFF;
   position: absolute;
   height: 30%;
   width: 42%;
@@ -1466,7 +1466,7 @@ div:before, div:after {
   background: transparent;
   bottom: 0;
   left: 47%;
-  box-shadow: -1.3vmin 0 0 #9EB6D7, -2.8vmin 0 0 #9EB6D7, 1.3vmin 0 0 #4F8EDB, 2.8vmin 0 0 #4F8EDB;
+  box-shadow: -1.3vmin 0 0 #000000, -2.8vmin 0 0 #000000, 1.3vmin 0 0 #000000, 2.8vmin 0 0 #000000;
   z-index: 2;
 }
 .front-legs > .leg {
@@ -1478,7 +1478,7 @@ div:before, div:after {
   overflow: hidden;
 }
 .front-legs > .leg:before {
-  background: #C8DAF2;
+  background: #FFFFFF;
   height: 100%;
   width: 100%;
   transform: skewY(-30deg) skewX(10deg);
@@ -1489,12 +1489,12 @@ div:before, div:after {
   transform: rotateY(180deg);
 }
 .front-legs > .leg + .leg:before {
-  background: #9EB6D7;
+  background: #FFFFFF;
 }
 
 .hind-leg {
   position: absolute;
-  background: #9EB6D7;
+  background: #FFFFFF;
   width: 35%;
   height: 25%;
   border-top-left-radius: 35% 100%;
@@ -1508,7 +1508,7 @@ div:before, div:after {
   background: transparent;
   bottom: 0;
   left: 70%;
-  box-shadow: -0.8vmin 0 0 #4F8EDB, 0.8vmin 0 0 #4F8EDB;
+  box-shadow: -0.8vmin 0 0 #000000, 0.8vmin 0 0 #000000;
 }
 
 .tail {
@@ -1517,7 +1517,7 @@ div:before, div:after {
   height: 6%;
   bottom: 0;
   right: 72%;
-  background: #343C60;
+  background: #FFFFFF;
   z-index: 0;
 }
 .tail > .tail {
